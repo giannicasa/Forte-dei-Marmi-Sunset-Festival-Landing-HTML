@@ -1,0 +1,208 @@
+.musicisti-layout349 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.musicisti-max-width {
+  display: flex;
+  align-items: center;
+}
+.musicisti-container {
+  color: var(--dl-color-theme-neutral-light);
+  width: 20%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.musicisti-image {
+  width: var(--dl-size-size-xlarge);
+  height: var(--dl-size-size-xlarge);
+  object-fit: cover;
+}
+.musicisti-text {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  text-align: center;
+  text-transform: uppercase;
+}
+.musicisti-container1 {
+  color: var(--dl-color-theme-neutral-light);
+  width: 20%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.musicisti-image1 {
+  width: var(--dl-size-size-xlarge);
+  height: var(--dl-size-size-xlarge);
+  object-fit: cover;
+}
+.musicisti-text1 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  text-align: center;
+  text-transform: uppercase;
+}
+.musicisti-container2 {
+  color: var(--dl-color-theme-neutral-light);
+  width: 20%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.musicisti-image2 {
+  width: var(--dl-size-size-xlarge);
+  height: var(--dl-size-size-xlarge);
+  object-fit: cover;
+}
+.musicisti-text2 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  text-align: center;
+  text-transform: uppercase;
+}
+.musicisti-container3 {
+  color: var(--dl-color-theme-neutral-light);
+  width: 20%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.musicisti-image3 {
+  width: var(--dl-size-size-xlarge);
+  height: var(--dl-size-size-xlarge);
+  object-fit: cover;
+}
+.musicisti-text3 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  text-align: center;
+  text-transform: uppercase;
+}
+.musicisti-container4 {
+  color: var(--dl-color-theme-neutral-light);
+  width: 20%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.musicisti-image4 {
+  width: var(--dl-size-size-xlarge);
+  height: var(--dl-size-size-xlarge);
+  object-fit: cover;
+}
+.musicisti-text4 {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  font-style: normal;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+@media(max-width: 991px) {
+  .musicisti-layout349 {
+    align-items: center;
+  }
+  .musicisti-max-width {
+    gap: var(--dl-space-space-twounits);
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .musicisti-container {
+    width: 50%;
+    align-self: center;
+  }
+  .musicisti-image {
+    width: var(--dl-size-size-xxlarge);
+    height: var(--dl-size-size-xxlarge);
+  }
+  .musicisti-container1 {
+    width: 50%;
+    align-self: center;
+  }
+  .musicisti-image1 {
+    width: var(--dl-size-size-xxlarge);
+    height: var(--dl-size-size-xxlarge);
+  }
+  .musicisti-container2 {
+    width: 50%;
+    align-self: center;
+  }
+  .musicisti-image2 {
+    width: var(--dl-size-size-xxlarge);
+    height: var(--dl-size-size-xxlarge);
+  }
+  .musicisti-container3 {
+    width: 50%;
+    align-self: center;
+  }
+  .musicisti-image3 {
+    width: var(--dl-size-size-xxlarge);
+    height: var(--dl-size-size-xxlarge);
+  }
+  .musicisti-container4 {
+    width: 50%;
+    align-self: center;
+  }
+  .musicisti-image4 {
+    width: var(--dl-size-size-xxlarge);
+    height: var(--dl-size-size-xxlarge);
+  }
+}
+@media(max-width: 767px) {
+  .musicisti-container {
+    width: 100%;
+  }
+  .musicisti-container1 {
+    width: 100%;
+  }
+  .musicisti-container2 {
+    width: 100%;
+  }
+  .musicisti-container3 {
+    width: 100%;
+  }
+  .musicisti-container4 {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .musicisti-image {
+    width: var(--dl-size-size-xxlarge);
+    height: var(--dl-size-size-xxlarge);
+  }
+  .musicisti-image1 {
+    width: var(--dl-size-size-xxlarge);
+    height: var(--dl-size-size-xxlarge);
+  }
+  .musicisti-image2 {
+    width: var(--dl-size-size-xxlarge);
+    height: var(--dl-size-size-xxlarge);
+  }
+  .musicisti-image3 {
+    width: var(--dl-size-size-xxlarge);
+    height: var(--dl-size-size-xxlarge);
+  }
+  .musicisti-image4 {
+    width: var(--dl-size-size-xxlarge);
+    height: var(--dl-size-size-xxlarge);
+  }
+}

@@ -1,0 +1,26 @@
+.hero9-header30 {
+  gap: var(--dl-space-space-twounits);
+  height: 795px;
+  flex-direction: column;
+}
+.hero9-container {
+  top: 0px;
+  right: -2px;
+  width: 1200px;
+  height: 740px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero9-image {
+  width: 1154px;
+  height: 686px;
+  object-fit: cover;
+}
+.hero9-root-class-name {
+  flex: initial;
+  height: auto;
+  align-self: center;
+}

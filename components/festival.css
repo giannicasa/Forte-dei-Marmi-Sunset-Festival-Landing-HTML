@@ -1,0 +1,107 @@
+.festival-layout226 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: row;
+  justify-content: center;
+}
+.festival-max-width {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.festival-section-title {
+  height: 451px;
+  padding-right: var(--dl-space-space-sixunits);
+  justify-content: center;
+}
+.festival-content {
+  align-items: center;
+  justify-content: center;
+}
+.festival-title1 {
+  width: 100%;
+  font-size: 40px;
+  font-style: normal;
+  text-align: left;
+  font-family: "Unbounded";
+  font-weight: 300;
+  border-color: var(--dl-color-theme-primary1);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  letter-spacing: 12px;
+  border-top-width: 0px;
+  border-left-width: 8px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.festival-column1 {
+  width: auto;
+  height: auto;
+  align-self: flex-start;
+  align-items: center;
+  padding-left: 20%;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.festival-icon2 {
+  width: 577px;
+  height: 543px;
+  align-self: center;
+}
+@media(max-width: 1600px) {
+  .festival-column1 {
+    padding-left: 18%;
+  }
+}
+@media(max-width: 1200px) {
+  .festival-column1 {
+    padding-left: 2%;
+  }
+}
+@media(max-width: 991px) {
+  .festival-layout226 {
+    flex-direction: column;
+  }
+  .festival-max-width {
+    flex-direction: column;
+  }
+  .festival-column {
+    align-self: flex-start;
+  }
+  .festival-section-title {
+    height: 107px;
+    align-items: center;
+    padding-right: 0px;
+  }
+  .festival-content {
+    align-items: center;
+  }
+  .festival-column1 {
+    align-self: center;
+  }
+}
+@media(max-width: 479px) {
+  .festival-max-width {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .festival-section-title {
+    height: auto;
+  }
+  .festival-column1 {
+    padding-left: 0px;
+  }
+  .festival-icon2 {
+    width: 415px;
+    height: 387px;
+  }
+}

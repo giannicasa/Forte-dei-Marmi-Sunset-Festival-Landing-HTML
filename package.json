@@ -1,0 +1,10 @@
+{
+  "name": "forte-dei-marmi-sunset-festival-landing",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "scripts": {},
+  "devDependencies": {}
+}
